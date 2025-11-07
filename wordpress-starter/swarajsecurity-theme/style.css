@@ -1,0 +1,25 @@
+/*
+Theme Name: SwarajSecurity Theme
+Theme URI: https://swarajsecurity.com
+Author: SwarajSecurity
+Author URI: https://swarajsecurity.com
+Description: Lightweight starter theme for SwarajSecurity (landing + basic pages).
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: swarajsecurity
+*/
+body { font-family: Arial, Helvetica, sans-serif; margin:0; padding:0; color:#222; }
+.site-header { background:#0b3d91; color:#fff; padding:18px 20px; }
+.site-title { margin:0; font-size:24px; }
+.site-nav { margin-top:8px; }
+.site-nav a { color:#fff; margin-right:12px; text-decoration:none; font-weight:600; }
+.hero { background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('assets/hero.jpg'); background-size:cover; color:#fff; padding:80px 20px; text-align:center; }
+.container { max-width:1100px; margin:0 auto; padding:20px; }
+.grid-3 { display:grid; grid-template-columns: repeat(3,1fr); gap:18px; }
+.card { background:#fff; border-radius:8px; padding:18px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+.cta { display:inline-block; padding:12px 18px; background:#ff6b00; color:#fff; border-radius:8px; text-decoration:none; font-weight:700; }
+.footer { background:#f4f4f6; padding:20px; margin-top:30px; text-align:center; font-size:14px; }
+@media(max-width:768px){
+  .grid-3 { grid-template-columns: 1fr; }
+  .hero { padding:40px 20px; }
+}

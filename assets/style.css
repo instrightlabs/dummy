@@ -1,0 +1,24 @@
+
+/* Basic responsive CSS */
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222;line-height:1.5}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.header{background:#0b3d91;color:#fff;padding:18px 0}
+.header .brand{font-size:22px;font-weight:700;text-decoration:none;color:#fff}
+.nav{margin-top:10px}
+.nav a{color:#fff;margin-right:12px;text-decoration:none;font-weight:600}
+.hero{background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url('assets/hero.jpg');background-size:cover;background-position:center;color:#fff;padding:70px 20px;text-align:center}
+.hero h1{margin:0;font-size:32px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+.card{background:#fff;padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.cta{display:inline-block;padding:12px 18px;background:#ff6b00;color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+.footer{background:#f4f4f6;padding:20px;text-align:center;margin-top:30px}
+@media(max-width:800px){
+  .grid-3{grid-template-columns:1fr}
+  .hero{padding:40px 20px}
+}
+form input, form textarea, form select{width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
+form button{background:#0b3d91;color:#fff;padding:12px 18px;border:none;border-radius:6px;font-weight:700;cursor:pointer}
+.note{font-size:14px;color:#555}
+.success{background:#e6ffed;border:1px solid #b2f5c7;padding:12px;border-radius:6px;color:#065f46}
+.error{background:#ffe6e6;border:1px solid #f5b2b2;padding:12px;border-radius:6px;color:#7a1515}

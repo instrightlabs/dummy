@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — SwarajSecurity</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+  function validateForm(){
+    var name=document.forms["contactForm"]["name"].value.trim();
+    var phone=document.forms["contactForm"]["phone"].value.trim();
+    if(name=="" || phone==""){ alert("Please provide your name and phone number."); return false;}
+    return true;
+  }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="brand" href="index.html">SwarajSecurity</a>
+      <nav class="nav" style="float:right;margin-top:-30px">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div style="clear:both"></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Phone: +91-XXXXXXXXXX | Email: info@swarajsecurity.com</p>
+    <div class="card">
+      <form name="contactForm" method="post" action="contact-form.php" onsubmit="return validateForm();">
+        <label>Name *</label>
+        <input type="text" name="name" required>
+        <label>Phone *</label>
+        <input type="text" name="phone" required>
+        <label>Email</label>
+        <input type="email" name="email">
+        <label>Service Interested</label>
+        <select name="service">
+          <option>Manned Guarding</option>
+          <option>Event Security</option>
+          <option>CCTV & Monitoring</option>
+          <option>Security Audit</option>
+        </select>
+        <label>Message</label>
+        <textarea name="message" rows="5"></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+      <p class="note">By submitting this form you agree to be contacted by SwarajSecurity. We respect your privacy.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 SwarajSecurity</p>
+    </div>
+  </footer>
+</body>
+</html>

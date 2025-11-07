@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a minimal WXR export for SwarajSecurity pages -->
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+  <title>SwarajSecurity</title>
+  <link>https://swarajsecurity.com</link>
+  <description>Security services — Lucknow</description>
+  <language>en</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+
+  <!-- Home -->
+  <item>
+    <title>Home</title>
+    <link>https://swarajsecurity.com/</link>
+    <pubDate>Thu, 06 Nov 2025 10:00:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=2</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>Welcome to SwarajSecurity</h2>
+    <p>Professional security personnel &amp; modern surveillance solutions protecting homes, businesses and events in Lucknow 24/7.</p>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+  </item>
+
+  <!-- About -->
+  <item>
+    <title>About</title>
+    <link>https://swarajsecurity.com/about</link>
+    <pubDate>Thu, 06 Nov 2025 10:01:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=3</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>About SwarajSecurity</h2>
+    <p>SwarajSecurity is a Lucknow-based security company committed to delivering reliable manned guarding, event safety and electronic surveillance.</p>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+  </item>
+
+  <!-- Services -->
+  <item>
+    <title>Services</title>
+    <link>https://swarajsecurity.com/services</link>
+    <pubDate>Thu, 06 Nov 2025 10:02:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=4</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>Our Services</h2>
+    <ul><li>Manned Guarding</li><li>Event Security</li><li>CCTV &amp; Alarm Monitoring</li><li>Executive Protection</li><li>Security Audits</li></ul>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+  </item>
+
+  <!-- Team -->
+  <item>
+    <title>Team</title>
+    <link>https://swarajsecurity.com/team</link>
+    <pubDate>Thu, 06 Nov 2025 10:03:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=5</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>Our Team</h2>
+    <p>Our professionals come from law enforcement, corporate security, and emergency response backgrounds.</p>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+  </item>
+
+  <!-- Request a Call -->
+  <item>
+    <title>Request a Call</title>
+    <link>https://swarajsecurity.com/request-a-call</link>
+    <pubDate>Thu, 06 Nov 2025 10:04:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=6</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>Request a Call</h2>
+    <p>Please fill the form on this page to request a callback from our operations team.</p>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+  </item>
+
+  <!-- Contact -->
+  <item>
+    <title>Contact</title>
+    <link>https://swarajsecurity.com/contact</link>
+    <pubDate>Thu, 06 Nov 2025 10:05:00 +0530</pubDate>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <guid isPermaLink="false">https://swarajsecurity.com/?post_type=page&#038;p=7</guid>
+    <description></description>
+    <content:encoded><![CDATA[
+    <h2>Contact</h2>
+    <p>Address: SwarajSecurity, Lucknow, Uttar Pradesh, India</p>
+    ]]></content:encoded>
+    <wp:post_type>page</wp:post_type>
+    <wp:status>publish</wp:status>
+  </item>
+
+</channel>
+</rss>
